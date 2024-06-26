@@ -113,7 +113,7 @@ class _SplashScreenState extends State<SplashScreen>
                     scale: _logoScaleAnimation,
                     child: SvgPicture.asset(
                       'assets/main_logo.svg',
-                      width: 150.0, // Adjusted width to make the logo smaller
+                      width: 130.0, // Adjusted width to make the logo smaller
                       // height: 150.0, // Adjusted height to maintain aspect ratio
                     ),
                   ),
@@ -125,7 +125,7 @@ class _SplashScreenState extends State<SplashScreen>
                       opacity: _textOpacityAnimation,
                       child: SvgPicture.asset(
                         'assets/text_logo.svg',
-                        width: 160.0,
+                        width: 150.0,
                       ),
                     ),
                   ),
